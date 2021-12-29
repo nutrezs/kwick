@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box; /* pas de depassement*/
+}
+
+body{
+
+    background:lightblue;
+    border: 2px solid black;
+    width: 20%;
+    margin-left: 50%;
+    margin-top: 15%;
+    align-items: center;
+    
+    
+
+    
+    
+    
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    
+}
+#form{
+    display:grid;
+    grid-gap: 1em;
+    background-color: rgb(127, 134, 136);
+
+}
+section{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+
+}
+
+section label{
+    margin-left: 0.4em;
+    
+    
+
+}
+section label input{
+    border: solid;
+}
+ section input{
+     padding: 00.4em;
+    
+     
+ }
+ form section ,input{
+     cursor: pointer;
+ }
+
+ 
+
+ button{
+     padding: 0.4em;
+     width: 100%;
+     background-color: white;
+     cursor: pointer;
+
+ }
+ .signup{
+     border-radius: 1em;
+     cursor: pointer;
+     background-color:lightblue
+ }
+     
+ 
+     
+     
+     
+     
+
+ .form-btns{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    text-align: center;
+    align-content: center;
+    
+  }    
+  
+  .form-btns button input {
+    font-size: 20px;
+    padding: 8px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(14, 10, 10);
+    background: rgb(135, 201, 221)
+    
+}
+value{
+    cursor: pointer;
+    
+    
+
+}
+
+
